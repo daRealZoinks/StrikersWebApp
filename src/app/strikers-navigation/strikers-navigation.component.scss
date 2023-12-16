@@ -1,0 +1,44 @@
+.spacer {
+    flex: 1 1 auto;
+}
+
+.toolbar-height {
+    height: 64px;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inline-content {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.sidenav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    a {
+        width: 100%;
+    }
+}
+
+.top-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-button {
+    margin-top: auto;
+}
+
+@media (min-width: 600px) {
+    button[mat-icon-button] {
+        display: none;
+    }
+}

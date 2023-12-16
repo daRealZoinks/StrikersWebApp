@@ -1,0 +1,17 @@
+.news-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.news-card:hover {
+    transform: translateY(-10px);
+}
+
+.news-card-image {
+    height: 240px;
+    width: 426px;
+    object-fit: cover;
+}
+
+.news-card-title {
+    text-align: center;
+}

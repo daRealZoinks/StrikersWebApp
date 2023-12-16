@@ -1,0 +1,41 @@
+<mat-toolbar color="primary" class="toolbar-height center-content">
+    <mat-toolbar-row>
+        <span>Strikers</span>
+        <div fxShow fxHide.lt-sm class="inline-content">
+            <div>
+                <a mat-button routerLink="/">Home</a>
+                <a mat-button routerLink="/news">News</a>
+                <a mat-button routerLink="/community">Community</a>
+                <a mat-button routerLink="/support">Support</a>
+                <a mat-button routerLink="/about">About</a>
+            </div>
+            <span class="spacer"></span>
+            <a mat-raised-button color="accent" routerLink="/play">PLAY NOW</a>
+        </div>
+        <div fxHide fxShow.lt-sm class="inline-content">
+            <span class="spacer"></span>
+            <button mat-icon-button (click)="sidenav.toggle()">
+                <mat-icon>menu</mat-icon>
+            </button>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<mat-sidenav-container>
+    <mat-sidenav color="primary" #sidenav mode="over">
+        <div class="sidenav-content">
+            <div class="top-buttons">
+                <a mat-button routerLink="/">Home</a>
+                <a mat-button routerLink="/news">News</a>
+                <a mat-button routerLink="/community">Community</a>
+                <a mat-button routerLink="/support">Support</a>
+                <a mat-button routerLink="/about">About</a>
+            </div>
+            <div class="bottom-button">
+                <a mat-raised-button color="accent" routerLink="/play">PLAY NOW</a>
+            </div>
+        </div>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <ng-content></ng-content>
+    </mat-sidenav-content>
+</mat-sidenav-container>
