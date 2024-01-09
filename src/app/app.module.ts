@@ -14,6 +14,7 @@ import { StrikersNavigationComponent } from './strikers-navigation/strikers-navi
 import { HomepageComponent } from './homepage/homepage.component';
 import { ThisIsStrikersComponent } from './this-is-strikers/this-is-strikers.component';
 import { NewsCardComponent } from './news-card/news-card.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NewsCardComponent } from './news-card/news-card.component';
     StrikersNavigationComponent,
     HomepageComponent,
     ThisIsStrikersComponent,
-    NewsCardComponent
+    NewsCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

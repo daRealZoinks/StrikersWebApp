@@ -1,87 +1,19 @@
 #this-is-strikers {
-    /* Add your styles here */
-}
+    padding: 50px 50px; // Padding at the top and bottom
 
-.learn-more {
-    /* Add your styles here */
-}
+    .has-text-centered {
+        margin: 0 auto; // Center the text block
+        text-align: center;
+        h2 {
+            color: blue; // Dark grey color
+            font-size: 2.5em; // Larger font size
+            margin-bottom: 20px; // Space below the title
+        }
 
-.section {
-    /* Add your styles here */
-}
-
-.mx-0 {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.px-0 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.container {
-    /* Add your styles here */
-}
-
-.is-fullhd {
-    /* Add your styles here */
-}
-
-.has-text-centered {
-    text-align: center;
-}
-
-.px-2 {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
-
-.section-title {
-    /* Add your styles here */
-}
-
-.has-text-weight-bold {
-    font-weight: bold;
-}
-
-.my-0 {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-.is-size-4-mobile {
-    /* Add your styles here */
-}
-
-.is-size-2-tablet {
-    /* Add your styles here */
-}
-
-.is-size-1-desktop {
-    /* Add your styles here */
-}
-
-.has-text-dark {
-    /* Add your styles here */
-}
-
-.section-copy {
-    /* Add your styles here */
-}
-
-.is-size-6-mobile {
-    /* Add your styles here */
-}
-
-.is-size-5-tablet {
-    /* Add your styles here */
-}
-
-.is-size-4-desktop {
-    /* Add your styles here */
-}
-
-.is-size-3-widescreen {
-    /* Add your styles here */
+        p {
+            color: blue; // Medium grey color
+            font-size: 1.2em; // Slightly larger font size
+            line-height: 1.6; // More space between lines
+        }
+    }
 }
