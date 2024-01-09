@@ -13,6 +13,7 @@ const routes: Routes = [
   { path: 'community', component: CommunityComponent },
   { path: 'support', component: SupportComponent },
   { path: 'about', component: AboutComponent },
+  { path: '**', redirectTo: '/home' },
 ];
 
 @NgModule({
