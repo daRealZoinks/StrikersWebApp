@@ -15,6 +15,11 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ThisIsStrikersComponent } from './this-is-strikers/this-is-strikers.component';
 import { NewsCardComponent } from './news-card/news-card.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { NewsComponent } from './news/news.component';
+import { CommunityComponent } from './community/community.component';
+import { SupportComponent } from './support/support.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,12 @@ import { FooterComponent } from './footer/footer.component';
     HomepageComponent,
     ThisIsStrikersComponent,
     NewsCardComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    NewsComponent,
+    CommunityComponent,
+    SupportComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
