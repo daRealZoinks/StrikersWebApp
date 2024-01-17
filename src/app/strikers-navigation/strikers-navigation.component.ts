@@ -8,6 +8,7 @@ import { MatSidenav } from '@angular/material/sidenav';
 })
 export class StrikersNavigationComponent {
   @ViewChild('sidenav') sidenav!: MatSidenav;
+  connectedUser: any;
 
   toggleSidenav() {
     this.sidenav.toggle();

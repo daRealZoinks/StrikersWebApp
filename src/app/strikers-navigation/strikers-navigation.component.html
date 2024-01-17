@@ -10,7 +10,13 @@
                 <a mat-button routerLink="/about">About</a>
             </div>
             <span class="spacer"></span>
-            <a mat-raised-button color="accent" [href]="'https://store.steampowered.com/'">PLAY NOW</a>
+            <div>
+                <a mat-fab extended routerLink="/register">
+                    <mat-icon fontIcon="account_circle"></mat-icon>
+                    {{connectedUser?.username || 'Account'}}
+                </a>
+                <a mat-raised-button color="accent" [href]="'https://store.steampowered.com/'">PLAY NOW</a>
+            </div>
         </div>
         <div fxHide fxShow.lt-sm class="inline-content">
             <span class="spacer"></span>
@@ -30,7 +36,12 @@
                 <a mat-button routerLink="/support">Support</a>
                 <a mat-button routerLink="/about">About</a>
             </div>
+            <span class="spacer"></span>
             <div class="bottom-button">
+                <a mat-fab extended routerLink="/register">
+                    <mat-icon fontIcon="account_circle"></mat-icon>
+                    {{connectedUser?.username || 'Account'}}
+                </a>
                 <a mat-raised-button color="accent" routerLink="/play">PLAY NOW</a>
             </div>
         </div>

@@ -5,6 +5,7 @@ import { NewsComponent } from './news/news.component';
 import { CommunityComponent } from './community/community.component';
 import { SupportComponent } from './support/support.component';
 import { AboutComponent } from './about/about.component';
+import { RegisterComponent } from './register/register.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'community', component: CommunityComponent },
   { path: 'support', component: SupportComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'register', component: RegisterComponent },
   { path: '**', redirectTo: '/home' },
 ];
 

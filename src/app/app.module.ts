@@ -8,6 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
+import { MatIconButton } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { StrikersNavigationComponent } from './strikers-navigation/strikers-navigation.component';
@@ -20,6 +21,7 @@ import { NewsComponent } from './news/news.component';
 import { CommunityComponent } from './community/community.component';
 import { SupportComponent } from './support/support.component';
 import { AboutComponent } from './about/about.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,8 @@ import { AboutComponent } from './about/about.component';
     NewsComponent,
     CommunityComponent,
     SupportComponent,
-    AboutComponent
+    AboutComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,7 @@ import { AboutComponent } from './about/about.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatCardModule, // And this line
+    MatCardModule,
     FlexLayoutModule
   ],
   providers: [],
